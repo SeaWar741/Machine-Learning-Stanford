@@ -15,6 +15,11 @@ centroids = zeros(K, size(X, 2));
 
 
 
+% Randomly reorder 
+randidx = randperm(size(X, 1));
+% Take the first K 
+centroids = X(randidx(1:K), :);
+
 
 
 
