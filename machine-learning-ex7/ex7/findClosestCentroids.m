@@ -20,7 +20,7 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-
+%HOLA PRUEBA 
 
 m = size(X,1)
 
